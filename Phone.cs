@@ -4,6 +4,10 @@ namespace OOP_lesson28;
 public class Phone
 {
     // здесь можно добавить доп. реализацию при необходимости
+    public void Message(MyMessage msg)
+    {
+        ReceiveSms(msg);
+    }
     
     private void ReceiveSms(MyMessage msg)
     {

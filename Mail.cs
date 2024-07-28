@@ -4,6 +4,10 @@ namespace OOP_lesson28;
 public class Mail
 {
     // здесь можно добавить доп. реализацию при необходимости
+    public void Message(MyMessage msg)
+    {
+        ReceiveMail(msg);
+    }
     
     private void ReceiveMail(MyMessage msg)
     {
